@@ -1,5 +1,5 @@
 module "s3_bucket" {
-  source  = "terraform-aws-modules/s3-bucket/aws"
+  source  = "git::https://github.com/Rchanger/s3module//?ref=main"
   version = "~> 4.0"
 
   bucket = var.bucket_name
