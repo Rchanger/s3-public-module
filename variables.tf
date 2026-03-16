@@ -107,5 +107,4 @@ variable "timeouts" {
   description = "The timeouts for create, update and delete operations"
   type        = object({create: optional(string), update: optional(string), delete: optional(string)})
   nullable    = true
-  type        = number
 }
